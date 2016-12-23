@@ -26,7 +26,7 @@ class DashboardTableViewController: UITableViewController {
         
         let ref = FIRDatabase.database().reference()
         
-        ref.child("Savings").queryOrderedByKey().observe(.childAdded, with: {
+        ref.child("Saving").queryOrderedByKey().observe(.childAdded, with: {
             snapshot in
             
             let snapshotValue = snapshot.value as? NSDictionary
@@ -35,10 +35,6 @@ class DashboardTableViewController: UITableViewController {
             let saveid = snapshotValue?["saveid"] as? String
             let savedate = snapshotValue?["savedate"] as? String
             
-        
-            
-            //let title = snapshot.value!["title"] as! String
-            //let message = snapshot.value!["message"] as! String
             
             self.posts.insert(postStruct(userid: userid, savebalance: savebalance, saveid: saveid, savedate: savedate), at: 0)
             self.tableView.reloadData()
@@ -61,11 +57,11 @@ class DashboardTableViewController: UITableViewController {
         let saveid = "Save id"
         let savedate = "Save Date"
         
-        let post : [String : AnyObject] = ["userid" : userid as AnyObject, "savebalance" : savebalance as AnyObject, "saveid" : saveid as AnyObject, "savedate" : savedate as AnyObject ]
+        let post : [String : AnyObject] = ["User id" : userid as AnyObject, "Save Balance" : savebalance as AnyObject, "Save id" : saveid as AnyObject, "Save Date" : savedate as AnyObject ]
         
         let ref = FIRDatabase.database().reference()
         
-        ref.child("Savings").childByAutoId().setValue(post)
+        ref.child("Saving").childByAutoId().setValue(post)
         
         
     }
@@ -110,6 +106,7 @@ class DashboardTableViewController: UITableViewController {
             let label4 = cell?.viewWithTag(4) as? UILabel
             label4?.text = posts[indexPath.row].savebalance
            
+            return cell!
         }
       
         
