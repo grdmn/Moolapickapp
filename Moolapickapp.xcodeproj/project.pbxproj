@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79A7FF5B9C9C5781041C6638 /* Pods_Moolapickapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707CF39E08E726AB4588D045 /* Pods_Moolapickapp.framework */; };
+		840F21901E0D86A400ABA6DF /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F218F1E0D86A400ABA6DF /* DashboardTableViewController.swift */; };
+		849BFD321E06FFB100D60C3F /* container in Resources */ = {isa = PBXBuildFile; fileRef = 849BFD311E06FFB100D60C3F /* container */; };
 		84D832A41E06AC7E00BED95A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D832A31E06AC7E00BED95A /* AppDelegate.swift */; };
 		84D832A61E06AC7E00BED95A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D832A51E06AC7E00BED95A /* ViewController.swift */; };
 		84D832A91E06AC7E00BED95A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D832A71E06AC7E00BED95A /* Main.storyboard */; };
 		84D832AB1E06AC7E00BED95A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D832AA1E06AC7E00BED95A /* Assets.xcassets */; };
 		84D832AE1E06AC7E00BED95A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D832AC1E06AC7E00BED95A /* LaunchScreen.storyboard */; };
+		84D832B61E06ACE200BED95A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D832B51E06ACE200BED95A /* GoogleService-Info.plist */; };
+		84D832B81E06ADF300BED95A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D832B71E06ADF300BED95A /* AdSupport.framework */; };
+		84D832BA1E06AF2F00BED95A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D832B91E06AF2F00BED95A /* LoginViewController.swift */; };
+		84D832BC1E06B43B00BED95A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D832BB1E06B43B00BED95A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BDE2BEE64B98147BBB91912 /* Pods-Moolapickapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolapickapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moolapickapp/Pods-Moolapickapp.release.xcconfig"; sourceTree = "<group>"; };
+		707CF39E08E726AB4588D045 /* Pods_Moolapickapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolapickapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840F218F1E0D86A400ABA6DF /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
+		849BFD311E06FFB100D60C3F /* container */ = {isa = PBXFileReference; lastKnownFileType = folder; path = container; sourceTree = "<group>"; };
 		84D832A01E06AC7E00BED95A /* Moolapickapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moolapickapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D832A31E06AC7E00BED95A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D832A51E06AC7E00BED95A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,11 @@
 		84D832AA1E06AC7E00BED95A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D832AD1E06AC7E00BED95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D832AF1E06AC7E00BED95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D832B51E06ACE200BED95A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84D832B71E06ADF300BED95A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		84D832B91E06AF2F00BED95A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84D832BB1E06B43B00BED95A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B8466C0B5298E048170617CB /* Pods-Moolapickapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolapickapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moolapickapp/Pods-Moolapickapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D832B81E06ADF300BED95A /* AdSupport.framework in Frameworks */,
+				79A7FF5B9C9C5781041C6638 /* Pods_Moolapickapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6716249BBE98FF756D45D09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D832B71E06ADF300BED95A /* AdSupport.framework */,
+				707CF39E08E726AB4588D045 /* Pods_Moolapickapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84D832971E06AC7E00BED95A = {
 			isa = PBXGroup;
 			children = (
+				849BFD311E06FFB100D60C3F /* container */,
 				84D832A21E06AC7E00BED95A /* Moolapickapp */,
 				84D832A11E06AC7E00BED95A /* Products */,
+				C1CFF535088A4AE3A0F5F504 /* Pods */,
+				6716249BBE98FF756D45D09C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +90,21 @@
 				84D832AA1E06AC7E00BED95A /* Assets.xcassets */,
 				84D832AC1E06AC7E00BED95A /* LaunchScreen.storyboard */,
 				84D832AF1E06AC7E00BED95A /* Info.plist */,
+				84D832B51E06ACE200BED95A /* GoogleService-Info.plist */,
+				84D832B91E06AF2F00BED95A /* LoginViewController.swift */,
+				84D832BB1E06B43B00BED95A /* ProfileViewController.swift */,
+				840F218F1E0D86A400ABA6DF /* DashboardTableViewController.swift */,
 			);
 			path = Moolapickapp;
+			sourceTree = "<group>";
+		};
+		C1CFF535088A4AE3A0F5F504 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8466C0B5298E048170617CB /* Pods-Moolapickapp.debug.xcconfig */,
+				1BDE2BEE64B98147BBB91912 /* Pods-Moolapickapp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D832B21E06AC7E00BED95A /* Build configuration list for PBXNativeTarget "Moolapickapp" */;
 			buildPhases = (
+				7FA991EAA6F3614D0011E667 /* [CP] Check Pods Manifest.lock */,
 				84D8329C1E06AC7E00BED95A /* Sources */,
 				84D8329D1E06AC7E00BED95A /* Frameworks */,
 				84D8329E1E06AC7E00BED95A /* Resources */,
+				376CD253E43C2C34F14B5F44 /* [CP] Embed Pods Frameworks */,
+				6661991082680F033882F0FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D832AE1E06AC7E00BED95A /* LaunchScreen.storyboard in Resources */,
+				84D832B61E06ACE200BED95A /* GoogleService-Info.plist in Resources */,
+				849BFD321E06FFB100D60C3F /* container in Resources */,
 				84D832AB1E06AC7E00BED95A /* Assets.xcassets in Resources */,
 				84D832A91E06AC7E00BED95A /* Main.storyboard in Resources */,
 			);
@@ -132,12 +180,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		376CD253E43C2C34F14B5F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moolapickapp/Pods-Moolapickapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6661991082680F033882F0FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moolapickapp/Pods-Moolapickapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA991EAA6F3614D0011E667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84D8329C1E06AC7E00BED95A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840F21901E0D86A400ABA6DF /* DashboardTableViewController.swift in Sources */,
+				84D832BA1E06AF2F00BED95A /* LoginViewController.swift in Sources */,
 				84D832A61E06AC7E00BED95A /* ViewController.swift in Sources */,
+				84D832BC1E06B43B00BED95A /* ProfileViewController.swift in Sources */,
 				84D832A41E06AC7E00BED95A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +356,7 @@
 		};
 		84D832B31E06AC7E00BED95A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8466C0B5298E048170617CB /* Pods-Moolapickapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CL2GSQ2D6S;
@@ -270,6 +370,7 @@
 		};
 		84D832B41E06AC7E00BED95A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDE2BEE64B98147BBB91912 /* Pods-Moolapickapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CL2GSQ2D6S;
@@ -300,6 +401,7 @@
 				84D832B41E06AC7E00BED95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
